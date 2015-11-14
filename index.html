@@ -1,8 +1,127 @@
 <html>
 <head>
-	<title>Matko</title>
+	<title>Mateja Trifunovski Portfolio</title>
+  <script src="javascript/code.js"></script>
+  <script src="jquery-1.11.3.min.js"></script>
+  <link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-hey
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <div class="navbar-header">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle navbar-brand" data-toggle="dropdown" role="button"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Menu </a>
+          <ul class="dropdown-menu">
+            <span class="sr-only">(current)</span>
+            <li><a href="#about" id="aboutBtn">About</a></li>
+            <li><a href="#portfolio" id="portfolioBtn">Portfolio</a></li>
+            <li><a href="#contact" id="contactBtn">Contact</a></li>
+            <li class="divider"></li>
+            <li><a href="#home" id="homeBtn">Home</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</nav>
+
+
+<div class="jumbotron" id="home">
+  <h1>Hello,World!<br>I am Mateja Trifunovski.</h1>
+  <p>Scroll down, to learn more about me.</p>
+  <ul class="list-inline">
+    <li><a class="btn btn-default btn-lg" href="https://www.facebook.com/mtrifunovski" title="Me on Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+    <li><a class="btn btn-default btn-lg" href="https://twitter.com/" title="Me on Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+    <li><a class="btn btn-default btn-lg" href="https://github.com/Matko95" title="Me on GitHub" target="_blank"><i class="fa fa-github"></i></a></li>
+    <li><a class="btn btn-default btn-lg" href="http://www.freecodecamp.com/matko95" title="Me on FreeCodeCamp" target="_blank"><i class="fa fa-fire"></i></a></li>
+  </ul>
+</div>
+
+<div class="about-me" id="about">
+  <div class="container">
+    <h1>About me</h1>
+    <hr>
+    <div class="row">
+      <div class="col-md-4">
+        <h2><span class="glyphicon glyphicon-user"></span> Me</h2>
+        <p class="text-box">I am currently a student, improving my skills to become a full-stack web developer, very driven to learn new things and take on new challenges. My interest in web design and web development grows each day.</p>
+      </div>
+      <div class="col-md-4">
+        <h2><span class="glyphicon glyphicon-book"></span> Education</h2>
+        <p class="text-box">Currently pursuing a masters degree at The School of Electrical and Computer Engineering of Applied in Belgrade, Serbia. Learning many languages like (C / C++ , Javascript , Java),computer frameworks, databases... </p>
+      </div>
+      <div class="col-md-4">
+        <h2><i class="fa fa-cogs" target="_blank"></i> Skills</h2>
+        <p class="text-box">HTML5/CSS3 , JavaScript , jQuery , Git , Node.js , Angular.js , SQL</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4"><img src="http://i.imgur.com/zG6OqGZ.png" class="img-responsive"/></div>  
+      <div class="col-md-4"><img src="http://i.imgur.com/SkvWf1p.png" class="img-responsive"/></div>  
+      <div class="col-md-4"><img src="http://i.imgur.com/vMsq6Pf.png" class="img-responsive"/></div>  
+    </div>
+  </div>
+</div>
+
+
+<div class="portfolio" id="portfolio">
+  <div class="container hovers">
+    <h1>Portfolio</h1>
+    <hr>
+    <div class="row">
+      <div class="col-md-6">
+        <h2><i class="fa fa-desktop"></i><a href="http://codepen.io/Matko95/full/GpKOWv" class="link"> Random Quote Machine</a></h2>
+        <p>WebApp which gives you random quotes by Albert Einstein, which you can share on twitter.</p>
+        <img src="http://s21.postimg.org/925mb6gpj/random_machine.jpg" class="img img-responsive shadow">
+      </div>
+      <div class="col-md-6">
+        <h2><i class="fa fa-desktop"></i><a href="http://s.codepen.io/Matko95/debug/zvYYRY?" class="link"> Local Weather App</a></h2>
+        <p>WebApp which gives you current weather information at your current location.</p>
+        <img src="http://www.aviatorcameragear.com/wp-content/uploads/2012/07/placeholder-470x352.jpg" class="img img-responsive shadow">
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h2><i class="fa fa-gamepad"></i> Mini game</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis sem a lorem dignissim accumsan. Integer ac vestibulum lacus. Proin maximus, sem ac consequat laoreet, turpis tortor ornare nibh, at auctor elit nulla et nisl. Cras purus
+            mi, sodales vitae tortor vel, pulvinar venenatis metus. Phasellus lacinia leo et augue dictum viverra. Mauris id consectetur urna. Vivamus auctor dui vel faucibus viverra.</p>
+          <img src="http://www.aviatorcameragear.com/wp-content/uploads/2012/07/placeholder-470x352.jpg" class="img img-responsive shadow">
+        </div>
+        <div class="col-md-6">
+          <h2><i class="fa fa-globe"></i> Website</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis sem a lorem dignissim accumsan. Integer ac vestibulum lacus. Proin maximus, sem ac consequat laoreet, turpis tortor ornare nibh, at auctor elit nulla et nisl. Cras purus
+            mi, sodales vitae tortor vel, pulvinar venenatis metus. Phasellus lacinia leo et augue dictum viverra. Mauris id consectetur urna. Vivamus auctor dui vel faucibus viverra.</p>
+          <img src="http://www.aviatorcameragear.com/wp-content/uploads/2012/07/placeholder-470x352.jpg" class="img img-responsive shadow">
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="contact" id="contact">
+  <div class="container">
+    <h1>Contact</h1>
+    <hr>
+    <p>You can contact me at: mtrifunovski@gmail.com or through my social network links.</p>
+    <ul class="list-group">
+      <li><a class="btn btn-default btn-lg list-group-item" href="https://www.facebook.com/mtrifunovski" title="Me on Facebook" target="_blank"><i class="fa fa-facebook ico"></i></a></li>
+      <br>
+      <li><a class="btn btn-default btn-lg list-group-item" href="https://twitter.com/" title="Me on Twitter" target="_blank"><i class="fa fa-twitter ico"></i></a></li>
+      <br>
+      <li><a class="btn btn-default btn-lg list-group-item" href="https://github.com/Matko95" title="Me on GitHub" target="_blank"><i class="fa fa-github ico"></i></a></li>
+      <br>
+      <li><a class="btn btn-default btn-lg list-group-item" href="http://www.freecodecamp.com/matko95" title="Me on FreeCodeCamp" target="_blank"><i class="fa fa-fire ico"></i></a></li>
+    </ul>
+  </div>
+
+</div>
+<div class="footer">
+  <p>Copyright © 2015 by Mateja Trifunovski</p>
+</div>
 </body>
 </html>

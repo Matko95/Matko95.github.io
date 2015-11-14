@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Muli);
+
+@media (min-width: 768px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+.navbar {
+  font-family: 'quicksand', sans-serif;
+  padding: 0px 0px 0px 50px;
+}
+
+li a{
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-image: url('http://orig14.deviantart.net/60e0/f/2014/158/1/a/white_texture_by_heartlesskinq-d7lezsj.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: 'quicksand', sans-serif;
+}
+
+h2 {
+  
+  font-weight: bold;
+}
+
+p {
+  font-size: 17px;
+  font-family: 'muli', sans-serif;
+  font-weight: 400;
+}
+
+.about-me {
+  background-color: #f9f9f9;
+  padding-bottom: 30px;
+}
+
+.portfolio {
+  background-color: #f9f9f9;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.img {
+  margin: 0 auto;
+  width: 70%;
+  border: 1px solid #000;
+  margin-top: 20px;
+}
+
+.shadow {
+  box-shadow: 7px 7px 7px #666;
+  position: relative;
+  transition: all 0.2s;
+  top: 0;
+}
+
+.contact {
+  background-color: #f9f9f9;
+  margin-top: 30px;
+  height: 500px;
+}
+
+.contact h1 {
+  font-weight: bold;
+}
+
+.contact p {
+  font-size: 25px;
+  font-family: 'Muli', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer {
+  height: 50px;
+  margin-top: 40px;
+  background-color: #dbdbdb;
+  text-align: center;
+  padding-top: 16px;
+  font-family: 'Muli', sans-serif;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:link {
+  color: black;
+}
+
+.link:hover {
+  color: #7e7e7e;
+  text-decoration: none;
+}
+
+.link:active {
+  color: #3f3f3f;
+}
