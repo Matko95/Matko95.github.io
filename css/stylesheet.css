@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Muli);
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
   }
-}
+}*/
 
 .navbar {
   font-family: 'quicksand', sans-serif;
@@ -45,6 +45,7 @@ p {
   background-color: #f9f9f9;
   padding-bottom: 30px;
 }
+
 
 .portfolio {
   background-color: #f9f9f9;
