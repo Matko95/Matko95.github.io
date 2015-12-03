@@ -5,7 +5,7 @@ $(document).ready(function(){
         $(this).css({"top":"+5px","box-shadow": "7px 7px 7px #666"});
     });
 
-    $('.dropdown').on('mouseenter click tap', function() {
+    $('.dropdown').on('mouseenter mouseleave click tap', function() {
         $(this).toggleClass("open");
     });
  
