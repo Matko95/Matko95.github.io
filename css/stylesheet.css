@@ -1,14 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
 @import url(https://fonts.googleapis.com/css?family=Muli);
 
-/*@media (min-width: 768px) {
-  ul.nav li.dropdown:hover > ul.dropdown-menu {
-    display: block;
-  }
-}*/
 .dropdown:hover .dropdown-menu {
     display: block;
-    margin-top: 0px; 
+    margin-top: 0px;
+    top:50px; 
  }
 
 .navbar {
